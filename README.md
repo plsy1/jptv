@@ -4,9 +4,9 @@
 
 ### extract_jp_subtitles.sh
 
-从ts文件提取arib字幕，example.ts同目录下输出example.jp.srt
+从ts文件提取arib字幕，example.ts同目录下输出example.jp.srt，需要包含libaribcaption的ffmpeg
 
-`./extract_jp_subtitles.sh -d <source_dir> [-o <offset>]`
+`./extract_jp_subtitles.sh -d <source_dir> [-o <offset>] [-t <file_type>]`
 
 ### jptv_rename
 
